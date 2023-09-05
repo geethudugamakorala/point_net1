@@ -24,7 +24,7 @@ def parse_dataset(num_points=2048):
     test_points = []
     test_labels = []
     class_map = {}
-    DATA_DIR = r'/home/gd/tensor_environment/ModelNet10/ModelNet10'
+    DATA_DIR = r'/ModelNet10/ModelNet10'
     folders = glob.glob(os.path.join(DATA_DIR, "[!README]*"))
 
     for i, folder in enumerate(folders):
